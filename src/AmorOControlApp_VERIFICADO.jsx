@@ -1,4 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { useElevenLabs } from './hooks/useElevenLabs';
+import { AudioControls } from './components/AudioControls';
 
 const APP_NAME = "¿Amor o control?";
 
